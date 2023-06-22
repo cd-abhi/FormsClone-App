@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width:100%;
+}
+
+.formSection {
+  width: 60%;
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.submitButtonContainer {
+  display: flex;
+  margin-left: 16px;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+  padding: 10px;
+}
+
+.submitButton {
+  color: #fff;
+  border-radius: 16px;
+  background-color: #03787c;
+  width: auto;
+  margin: 20px;
+}
+
+.formNamingContainer {
+  background-color: #f2f2f2;
+  width: 100%;
+  float: center;
+  padding-top: 16px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+}
+
+.formNamingContainerNoRounded {
+  background-color: #f2f2f2;
+  width: 100%;
+  float: center;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
